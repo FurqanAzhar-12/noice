@@ -13,25 +13,32 @@ body{
 </style>
 <div style="text-align: center;;">
 <body>
-    <h1 style="margin-top:7%;font-size: 300%;"> Register Account</h1>
+    <form action="" method="get">
+    <h1 style="margin-top:6%;font-size: 300%;"> Register Account</h1>
     <div >
-        <input placeholder="First Name"style="margin-top: 3%;padding: 7px;"> </input>
+        <input id="fName" placeholder="First Name"style="margin-top: 3%;padding: 7px;"> </input>
     </div>
     <div>
-        <input placeholder="Last Name" style="margin-top: 2%;padding: 7px;"> </input>
+        <input id="lName" placeholder="Last Name" style="margin-top: 2%;padding: 7px;"> </input>
     </div>
     <div >
-        <input placeholder="Email Address" type="email" style="margin-top: 2%;padding: 7px;"></input>
+        <input id="eAddress" placeholder="Email Address" type="email" style="margin-top: 2%;padding: 7px;"></input>
     </div>
     <div >
-        <input placeholder="password" type="password" style="margin-top: 2%;padding: 7px;"></input>
+        <input id="password"   placeholder="password" type="password" style="margin-top: 2%;padding: 7px;"></input>
     </div>
     <divs >
-        <input placeholder="password" type="password" style="margin-top: 2%;padding: 7px;"></input>
+        <input id="cPassword" placeholder="confirm password" type="password" style="margin-top: 2%;padding: 7px;"></input>
     </div>
-    <div style="margin-left: 43%;" >
-        Gender: Male <input type="radio"></input> Female <input type="radio"style="margin-top: 4%;padding: 7px;"> </input> 
+    <div style="margin-left: 43%;font-size:large;" >
+        Gender: Male <input id="Male" type="radio" name="Gender"></input> Female <input id="female" name="Gender" type="radio"style="margin-top: 4%;padding: 7px;"> </input> 
     </div>
+    <div style="text-align: center;margin-top: 2%;">
+        <button type="submit" id="Register" value="Register" id="register" style="border-radius:17%; padding: 15px;">Register</button>
+        <button type="Reset" style="border-radius:17% ;padding: 15px;">Reset</button>
+    </div>
+</form>
 </body>
+<script src="index.js"></script>
 </div>
 </html>
