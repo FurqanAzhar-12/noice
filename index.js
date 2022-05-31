@@ -17,14 +17,15 @@ button.addEventListener("click",function form(){
 
 if (userName==='') {
    alert('Enter Name')}
-  else if(userLastName===''||userLastName===null){
+    else if(userLastName===''||userLastName===null){
          alert('Enter Last Name')}
          else if(password===''||password!=cPassword){
             alert('Invalid Password')}
             /*else if(gender){
                alert('Please Select Gender')*/
             //}
-   else if(emailAddress===''||emailAddress===null){alert('Enter Email')}
+            else if(emailAddress===''||emailAddress===null)
+            {alert('Enter Email')}
 else{
    alert('Registration Successful')
 }
